@@ -1,0 +1,15 @@
+<div class="container">
+  <p>Welcome to Dashboard..!!</p>
+</div>
+
+<ul class="sidenav">
+  <a [routerLink]="['/addProduct']">Products</a>
+  <a [routerLink]="['logout']">Logout</a>
+</ul>
+<section>
+  <router-outlet></router-outlet>
+</section>
+
+<div class="form-group">
+  <button class="btn btn-primary btn-block">Update</button>
+</div>
